@@ -1,0 +1,19 @@
+
+# Ambiente virtual
+venv
+.env
+
+# Arquivos do Scrapy
+.scrapy/      # Cache de requisições do Scrapy (não precisa versionar)
+*.pyc         # Arquivos compilados do Python
+__pycache__/  # Cache do Python
+.DS_Store     # Arquivo do macOS (caso esteja usando)
+
+# Logs e arquivos temporários
+*.log
+*.db
+*.sqlite
+*.csv
+*.json
+*.xml
+*.jl
